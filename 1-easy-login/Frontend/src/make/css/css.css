@@ -1,0 +1,27 @@
+.absolute-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.width-500{
+    width: 500px;
+}
+
+.width-300{
+    width: 300px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.saml-login{
+    right: 16px;
+    line-height: 36px;
+}
