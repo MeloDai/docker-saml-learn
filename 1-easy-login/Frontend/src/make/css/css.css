@@ -24,4 +24,24 @@
 .saml-login{
     right: 16px;
     line-height: 36px;
+    text-align: right;
+    z-index: -1;
+    left: 0;
+}
+
+.saml-login:hover .saml-login-footer{
+    display: block;
+}
+
+.saml-login-footer{
+    display: none;
+    left: 0;
+    right: 0;
+    line-height: 36px;
+    height: 36px;
+}
+
+.saml-login-footer > div{
+    width: 33.33333%;
+    text-align: center;
 }

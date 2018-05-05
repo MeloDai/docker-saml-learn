@@ -28,7 +28,7 @@ let config = {
         signUp:'/signUp',
         main:'/main'
     },
-    springbootsaml:{
+    springBootSaml:{
         okta:'/springbootsaml'
     }
 };

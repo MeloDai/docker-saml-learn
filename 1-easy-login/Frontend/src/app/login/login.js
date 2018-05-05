@@ -4,6 +4,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
 import FrameWork from "../frameWork/frameWork";
 import { Link } from "react-router-dom";
+import IconButton from 'material-ui/IconButton';
 import EasyLogin from "../staticJs/setting";
 
 export default class Login extends Component{
@@ -85,9 +86,24 @@ export default class Login extends Component{
                             <div
                                 className='saml-login position-absolute'
                             >
-                                <a href={EasyLogin.config.springbootsaml.okta}>
-                                    Login as Okta
-                                </a>
+                                <div>
+                                    saml login
+                                </div>
+                                <div
+                                    className='saml-login-footer position-absolute display-flex'
+                                >
+                                    <div>
+                                        <a href={EasyLogin.config.springBootSaml.okta}>
+                                            Okta
+                                        </a>
+                                    </div>
+                                    <div>
+
+                                    </div>
+                                    <div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
