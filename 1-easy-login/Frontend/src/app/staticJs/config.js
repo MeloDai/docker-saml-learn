@@ -1,5 +1,5 @@
 let config = {
-    root:"http://localhost:1536/easyLogin",
+    root:"https://springsamlboottest.com:8443/api",
     mode:'cors',
     api:{
         account:{

@@ -76,7 +76,9 @@ export default class Login extends Component{
                         <div
                             className='display-flex'
                         >
-                            <div>
+                            <div
+                                className='z-index-1'
+                            >
                                 <Link to='/signUp'>
                                     <FlatButton
                                         label='sign up'

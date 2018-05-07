@@ -25,7 +25,7 @@
     right: 16px;
     line-height: 36px;
     text-align: right;
-    z-index: -1;
+    z-index: 0;
     left: 0;
 }
 
@@ -44,4 +44,8 @@
 .saml-login-footer > div{
     width: 33.33333%;
     text-align: center;
+}
+
+.z-index-1{
+    z-index: 1;
 }
