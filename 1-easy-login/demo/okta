@@ -1,0 +1,7 @@
+1.	go to this https://start.spring.io url
+2.	generate a mvn project by selecting Security, Web, Thymeleaf, and DevTools as dependencies.
+3.	add spring-security-saml-dsl 1.0.0.M3 dependency in pom.xml
+4.	create an okta app named 'SpringSaml' and associate to localhost
+
+
+
